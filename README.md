@@ -458,7 +458,65 @@ For Admin Users
    - Delete button on each sweet card to remove sweets
    - Restock button on each sweet card to increase inventory
 
+Screenshots
 
+The following screenshots demonstrate the application in action:
+
+User Registration
+![User Registration](screenshots/register_user.jpg)
+The registration page allows new users to create an account with username, email, and password.
+
+User Login
+![User Login](screenshots/login_user.jpg)
+Users can log in with their credentials to access the dashboard.
+
+Admin Login
+![Admin Login](screenshots/login_admin.jpg)
+Admin users have special privileges to manage the sweet shop inventory.
+
+User Dashboard
+![User Dashboard](screenshots/user_dashboard.jpg)
+Regular users can browse all available sweets, search, filter, and purchase items.
+
+Admin Dashboard
+![Admin Dashboard](screenshots/admin_dashboard.jpg)
+Admin dashboard includes all user features plus management capabilities to add, edit, delete, and restock sweets.
+
+Adding a Sweet
+![Add Sweet Modal](screenshots/add_sweet_model.jpg)
+Admin users can add new sweets to the inventory with name, category, price, and initial quantity.
+
+Editing a Sweet
+![Edit Sweet](screenshots/edit_sweet.jpg)
+Admins can update sweet details including name, category, price, and quantity.
+
+Removing a Sweet
+![Remove Sweet](screenshots/remove_sweet.jpg)
+Admin users can delete sweets from the inventory when they are no longer available.
+
+Filtering Sweets
+![Filtering Sweets](screenshots/filtering_sweets.jpg)
+Users can filter sweets by name, category, or price range to find specific items.
+
+Filtering Results
+![Filtering Results](screenshots/filtering_result.jpg)
+The search and filter functionality displays matching results based on the selected criteria.
+
+Out of Stock
+![Out of Stock](screenshots/out_of_stock.jpg)
+When a sweet's quantity reaches zero, it is marked as out of stock.
+
+Purchase Disabled
+![Purchase Disabled](screenshots/purchase_disable.jpg)
+The purchase button is automatically disabled for items with zero quantity.
+
+MongoDB Database - Sweets Collection
+![Sweets Database](screenshots/sweet_DB.png)
+The MongoDB database stores all sweet items with their details.
+
+MongoDB Database - Users Collection
+![Users Database](screenshots/mongodb_user_DB.png)
+User accounts are stored in the database with role-based access control.
 
 MongoDB Atlas Setup
 
